@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#F0F2F5;
+    position: relative;
+}
+form{
+    position: fixed;
+    background: white;
+    position: relative;
+    left: 500px;
+    width: 377px;
+    min-height: 600px;
+    border-radius: 10px;
+    padding: 25px 20px;
+}
+
+
+.headding{
+    margin-bottom: 40px;
+}
+.headding .log-in-with-gg{
+    display: block;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    margin:20px 0;
+    font-weight: 600;
+    font-size: 20px;
+    }
+i.ti-close.icon{
+    line-height: 18px;
+}
+.icon{
+    color: black;
+    height: 20px;
+    width: 20px;
+    float: right;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+i.ti-google{
+    font-size: 15px;
+    margin-right: 7px;
+    opacity: 0.4;
+}
+.in input{
+    padding: 16px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+.in input::placeholder{
+    font-size: 17px;
+    color: rgb(167, 167, 167);
+    font-weight: 300;
+}
+.remenber-me{
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.remenber-me input{
+    display: inline-block;
+    padding-right: 5px;
+    height: 20px;
+    width: 18px;
+    background: #0284FE;   
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+.remenber-me .sub-rmb{
+    color: black;
+    opacity: 0.5;
+    font-size: 17px;
+    font-weight: 400;
+}
+.submit{
+    margin-bottom: 25px;
+}
+.log-in{
+    display: inline-block;
+    color: white;
+    background-color: #0284FE;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.quesition{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.quesition a{
+    text-decoration: none;
+    color: #0284FE;
+    font-size: 18px;  
+}
+.quesition a:hover{
+    text-decoration: underline;
+}
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer .headding-footer{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    opacity: 0.4;
+}
+.footer .end-footer{
+    color: #0284FE;
+    text-decoration: none;
+}

@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #DFE7FC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    width: 400px;
+    min-height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 20px;
+}
+#main .headding{
+    margin-bottom: 35px;
+}
+.headding img{
+    display: block;
+    width: 100%;
+    border-top-left-radius:6px ;
+    border-top-right-radius: 6px;
+}
+#main .content{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.content .headding-content{
+    font-weight: 600;
+    opacity: 0.7;
+}
+.content .para{   
+    font-size: 13px;
+    padding: 8px;
+    line-height: 1.4;
+    font-weight: 600;
+    opacity: 0.4;
+}
+.content .buy-content{
+    
+    padding: 10px 50px;
+    background: #e6e6e6da;
+    border-radius: 6px;
+    width: 80%;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+.buy-content .main-buy{
+    margin-left: -16px;
+    display: flex;
+}
+.buy-content i{
+    background: gray;
+    opacity: 0.5;
+    padding: 18px;
+    border-radius: 50%;
+}
+.buy-content .annual-plan{
+    line-height: 1.4;
+    margin-right: 60px;
+}
+
+.content .buy-content a{
+    color: #382ADF;
+    margin-top: 12px;
+}
+.content .pay{
+    display: inline-block;
+    background: #372BDF;
+    padding: 15px 94px;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+#main .footer{
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.4;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
