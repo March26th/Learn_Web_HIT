@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #F7F7F7;
+}
+.text-black{
+    color: #040404 !important;
+}
+.bgr-black{
+    background-color: #2F2F2F !important;
+}
+.text-opacity{
+    color: #040404;
+    opacity: 0.5;
+}
+#main{
+    padding: 20px 80px 40px 80px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#code{
+    width: 100%;
+    height:100%;
+}
+#header{
+    display: flex;
+    line-height: 40px;
+    justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+}  
+#logo .heading-logo{
+
+}
+#logo .heading-logo .tron-den{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+}
+.tron-trang{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fafafa;
+    position: absolute;
+    top: 14px;
+    left: 15px
+}
+.tam-giac{   
+  width:0px;
+  height:0px;
+  border-left:10px solid transparent;
+  border-right:10px solid transparent;
+  border-top:15px solid #fafafa; 
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  text-shadow: 5px 2px 5px grey;
+}
+
+#logo .sub-logo{
+
+}
+
+.name-logo{
+    margin-left: 13px;
+    line-height: 40px;
+    font-weight: 700;
+}
+#nav{
+
+}
+#nav .list-nav{
+    display: flex;
+}
+#nav .list-nav>li{
+    list-style-type: none;
+    margin: 0 25px;
+}
+.list-nav>li>a{
+    text-decoration: none;
+    color: #040404;
+    font-weight: 550;
+}
+#header-button{
+
+}
+#header-button button{
+    padding: 15px 35px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: #F7F7F7;
+    color: black;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+}
+#content{
+    
+    display: flex;
+}
+.content-section{
+    margin-top: 80px;
+}
+.section-heading{
+    
+}
+.heading-main{
+    margin-bottom: 45px;
+}
+.heading-main>h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 1.4;
+}   
+.heading-sub{
+    font-size: 23px;
+    line-height: 1.4;
+}
+.section-foot{
+    margin-top: 45px;
+}
+.section-foot button{
+    padding: 15px 40px;
+    border-radius: 15px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.section-foot button:first-child{
+    background-color: black;
+    color: white;
+    margin-right: 15px;
+    
+}
+.section-foot button:last-child{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.content-img img{
+    width: 600px;
+}
+#footer{
+    margin-top: 70px;
+    display: flex;
+}
+#footer.info-team{
+    
+}
+.info-heading h3{
+    font-size: 28px;
+    line-height: 1.6;
+}
+.info-sub{
+    margin-top: 25px;
+}
+.info-sub p{
+    font-size: 17px;
+    line-height: 1.6;
+}
+.list-team{
+    margin-left: 20px;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-evenly;
+}   
+.list-team img{
+    height: 180px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    background-color: white;
+    margin: 0 20px;
+    border: 1px solid gray;
+    background-color: #F6F6F6;
+}
